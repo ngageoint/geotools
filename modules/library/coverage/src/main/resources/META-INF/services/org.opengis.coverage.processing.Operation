@@ -28,3 +28,4 @@ org.geotools.coverage.processing.operation.Histogram
 org.geotools.coverage.processing.operation.ZonalStats
 org.geotools.coverage.processing.operation.Warp
 org.geotools.coverage.processing.operation.Affine
+org.geotools.coverage.processing.operation.JAIExtStats

@@ -149,11 +149,18 @@
     <dependency>
        <groupId>org.jaitools</groupId>
        <artifactId>jt-zonalstats</artifactId>
-     </dependency>
-     <dependency>
+    </dependency>
+    <dependency>
        <groupId>org.jaitools</groupId>
        <artifactId>jt-utils</artifactId>
-     </dependency>
+    </dependency>
+      
+    <!--  JAI-Ext -->    
+    <dependency>
+        <groupId>it.geosolutions.jaiext.stats</groupId>
+        <artifactId>jt-stats</artifactId>
+        <version>1.0-M062014</version>
+    </dependency>
     
     <!-- Test dependencies -->
     <dependency>
@@ -185,9 +192,19 @@
       <artifactId>jai_codec</artifactId>
       <!-- The version number is specified in the parent POM. -->
       <scope>test</scope>
-    </dependency>
-    
-    
+    </dependency>    
   </dependencies>
-
+  
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.google.guava</groupId>
+        <artifactId>guava</artifactId>
+        <!-- jt-stats depends on 17.0 and classes introduced after r09 -->
+        <version>17.0</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
 </project>
+
+
