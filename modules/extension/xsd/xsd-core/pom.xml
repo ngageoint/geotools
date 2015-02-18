@@ -126,15 +126,15 @@
     </dependency>
     <dependency>
       <groupId>org.eclipse.emf</groupId>
-      <artifactId>common</artifactId>
+      <artifactId>org.eclipse.emf.common</artifactId>
     </dependency>
     <dependency>
       <groupId>org.eclipse.emf</groupId>
-      <artifactId>ecore</artifactId>
+      <artifactId>org.eclipse.emf.ecore</artifactId>
     </dependency>
     <dependency>
       <groupId>org.eclipse.xsd</groupId>
-      <artifactId>xsd</artifactId>
+      <artifactId>org.eclipse.xsd</artifactId>
     </dependency>
     <dependency>
       <groupId>junit</groupId>

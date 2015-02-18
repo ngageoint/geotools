@@ -79,6 +79,8 @@
         <module>filter-2.0</module>
         <module>geosciml-2.0</module>
         <module>geosciml-3.0-seegrid</module>
+        <module>geosciml-3.2</module>
+        <module>geosciml-3.2-seegrid</module>
         <module>gml-3.1</module>
         <module>gml-3.2</module>
         <module>ic-2.0</module>
@@ -90,13 +92,16 @@
         <module>ows-1.1</module>
         <module>sampling-1.0</module>
         <module>sampling-2.0</module>
+        <module>samplingSpatial-2.0</module>
         <module>samplingSpecimen-2.0</module>
         <module>sensorML-1.0</module>
         <module>sweCommon-1.0</module>
         <module>sweCommon-1.0-gml32</module>
+        <module>sweCommon-2.0</module>
         <module>wfs-1.1</module>
         <module>wfs-2.0</module>
         <module>xlink-1.0</module>
+        <module>xlink-1999</module>
         <module>xml-1.0</module>
     </modules>
 

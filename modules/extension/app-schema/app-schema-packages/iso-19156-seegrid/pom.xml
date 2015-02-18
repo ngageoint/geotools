@@ -71,7 +71,7 @@
                         <configuration>
                             <tasks>
                                 <property name="srcdir"
-                                    value="https://www.seegrid.csiro.au/subversion/GeoSciML/ISO19156_xsd/schemas/OM" />
+                                    value="http://schemas.opengis.net/" />
                                 <property name="destdir"
                                     value="${project.build.outputDirectory}/au/csiro/seegrid/www/subversion/GeoSciML/ISO19156_xsd/schemas/OM" />
                                 <mkdir dir="${destdir}/om/2.0/" />

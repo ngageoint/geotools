@@ -74,8 +74,8 @@
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.gdal</groupId>
-      <artifactId>gdal</artifactId>
+      <groupId>com.revolsys.open</groupId>
+      <artifactId>com.revolsys.open.gdal</artifactId>
       <version>${gdal.version}</version>
     </dependency>
     <dependency>
@@ -88,7 +88,7 @@
   </dependencies>
   
   <properties>
-    <gdal.version>1.8.1</gdal.version>
+    <gdal.version>2014.09.10-MTEC1</gdal.version>
   </properties>
   
     <build>

@@ -47,11 +47,15 @@
                         <phase>generate-resources</phase>
                         <configuration>
                             <tasks>
-                                <property name="srcdir" value="http://schemas.opengis.net/xlink/1.0.0" />
+                                <property name="srcdir" value="http://schemas.opengis.net/xlink" />
                                 <property name="destdir"
-                                    value="${project.build.outputDirectory}/net/opengis/schemas/xlink/1.0.0" />
+                                    value="${project.build.outputDirectory}/net/opengis/schemas/xlink" />
+								<property name="tempdir"
+                                    value="${project.build.directory}/temp" />
+								<mkdir dir="${tempdir}" />
+                                <get src="${srcdir}/xlink-1_0_0.zip" dest="${tempdir}/xlink-1_0_0.zip" />
                                 <mkdir dir="${destdir}" />
-                                <get src="${srcdir}/xlinks.xsd" dest="${destdir}/xlinks.xsd" />
+								<unzip src="${tempdir}/xlink-1_0_0.zip" dest="${destdir}/" />
                             </tasks>
                         </configuration>
                         <goals>

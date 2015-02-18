@@ -109,7 +109,7 @@
     </dependency>
     <dependency>
       <groupId>com.mockrunner</groupId>
-      <artifactId>mockrunner</artifactId>
+      <artifactId>mockrunner-jdbc</artifactId>
       <!-- The version number is specified in the parent POM. -->
       <scope>test</scope>
     </dependency>

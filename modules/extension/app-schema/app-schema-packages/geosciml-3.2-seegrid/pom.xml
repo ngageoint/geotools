@@ -61,7 +61,7 @@
 						<phase>generate-resources</phase>
 						<configuration>
 							<tasks>
-								<property name="srcdir" value="https://www.seegrid.csiro.au/subversion/GeoSciML/branches/3.2.0/schemas"/>
+								<property name="srcdir" value="https://www.seegrid.csiro.au/subversion/GeoSciML/tags/3.2.0/schemas"/>
 								<property name="destdir" value="${project.build.outputDirectory}/au/csiro/seegrid/www/subversion/GeoSciML/branches/3.2.0/schemas"/>
 								<mkdir dir="${destdir}/borehole/3.2/"/>
 								<mkdir dir="${destdir}/cgiutilities/3.2/"/>

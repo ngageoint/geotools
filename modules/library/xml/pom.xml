@@ -99,8 +99,8 @@
 	
 	<!--  xml schema resolver dependencies -->
 	<dependency>
-		<groupId>org.apache.xml</groupId>
-		<artifactId>xml-commons-resolver</artifactId>
+		<groupId>xml-resolver</groupId>
+		<artifactId>xml-resolver</artifactId>
 		<version>1.2</version>
 	</dependency>
 	<dependency>
